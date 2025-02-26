@@ -1,0 +1,75 @@
+/* Your CSS goes here! */
+body {
+    background-color:floralwhite;
+    color:brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img {
+    width: 500px
+}
+
+table, th, td {
+    margin-top: 1px;
+    margin-left: 15px;
+    padding: 7px;
+    border: 3px double tan
+}
+
+p {
+    padding: 5px;
+}
+
+h1, h2 {
+    font-weight: bolder;
+}
+
+ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.school {
+    margin: 10px;
+}
+
+.personal {
+    margin: 10px;
+}
+
+.classes {
+    p {
+        font-weight: 500;
+        padding-bottom: 0px;
+    }
+    ul {
+        padding-top: 0px;
+    }
+}
+
+.hobbies {
+    p {
+        font-weight: 500;
+        padding-bottom: 0px;
+    }
+}
+
+.navbar {
+    ul {
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+    }
+    li {
+        float: left;
+        font-weight: bold;
+    }
+    li a {
+        display: inline-block;
+        padding: 5px 10px;
+        text-align: center;
+        text-decoration: none;
+        color:brown;
+    }
+}
